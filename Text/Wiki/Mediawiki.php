@@ -86,10 +86,8 @@ class Text_Wiki_Mediawiki extends Text_Wiki {
      * @access public
      * @param array $rules The set of rules to load for this object.
      */
-    function Text_Wiki_Mediawiki($rules = null) {
+    function __construct($rules = null) {
         parent::Text_Wiki($rules);
         $this->addPath('parse', $this->fixPath(dirname(__FILE__)).'Parse/Mediawiki');
     }
 }
-
-?>
