@@ -56,4 +56,3 @@ class Text_Wiki_Parse_Mediawiki_Comment extends Text_Wiki_Parse {
     }
 }
 
-?>

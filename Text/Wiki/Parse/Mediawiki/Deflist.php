@@ -290,4 +290,3 @@ class Text_Wiki_Parse_Mediawiki_Deflist extends Text_Wiki_Parse {
         return "\n" . $return . "\n\n";
     }
 }
-?>

@@ -88,4 +88,3 @@ class Text_Wiki_Parse_Mediawiki_Code extends Text_Wiki_Parse {
         }
     }
 }
-?>

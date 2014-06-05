@@ -69,4 +69,3 @@ class Text_Wiki_Parse_Mediawiki_Preformatted extends Text_Wiki_Parse {
         }
     }
 }
-?>

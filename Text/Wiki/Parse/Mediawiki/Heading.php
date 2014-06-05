@@ -91,4 +91,3 @@ class Text_Wiki_Parse_Mediawiki_Heading extends Text_Wiki_Parse {
         return $start . trim($matches[2]) . $end . "\n";
     }
 }
-?>

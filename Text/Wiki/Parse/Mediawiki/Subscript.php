@@ -62,4 +62,3 @@ class Text_Wiki_Parse_Mediawiki_Subscript extends Text_Wiki_Parse {
         return $start . $matches[1] . $end;
     }
 }
-?>

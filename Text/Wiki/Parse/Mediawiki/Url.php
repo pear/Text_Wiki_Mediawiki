@@ -85,7 +85,7 @@ class Text_Wiki_Parse_Mediawiki_Url extends Text_Wiki_Parse {
     * 
     * @access public
     */
-    function Text_Wiki_Parse_Url(&$obj)
+    function __construct(&$obj)
     {
         parent::Text_Wiki_Parse($obj);
         
@@ -315,4 +315,3 @@ class Text_Wiki_Parse_Mediawiki_Url extends Text_Wiki_Parse {
         return $this->wiki->addToken($this->rule, $options);
     }
 }
-?>

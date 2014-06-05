@@ -283,4 +283,3 @@ class Text_Wiki_Parse_Mediawiki_Table extends Text_Wiki_Parse {
         return $ret . $matches[3] . $this->wiki->addToken($this->rule, $param );
     }
 }
-?>

@@ -58,4 +58,3 @@ class Text_Wiki_Parse_Mediawiki_Raw extends Text_Wiki_Parse {
         return $this->wiki->addToken($this->rule, $options);
     }
 }
-?>

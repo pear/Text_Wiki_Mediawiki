@@ -229,4 +229,3 @@ class Text_Wiki_Parse_Mediawiki_List extends Text_Wiki_Parse {
         return "\n" . $return . "\n\n";
     }
 }
-?>

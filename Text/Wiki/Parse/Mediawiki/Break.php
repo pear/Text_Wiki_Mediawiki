@@ -55,5 +55,3 @@ class Text_Wiki_Parse_Mediawiki_Break extends Text_Wiki_Parse {
         return $this->wiki->addToken($this->rule);
     }
 }
-
-?>

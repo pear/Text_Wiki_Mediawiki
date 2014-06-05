@@ -96,7 +96,7 @@ class Text_Wiki_Parse_Mediawiki_Wikilink extends Text_Wiki_Parse {
      * @return The parser object
      * @access public
      */
-    function Text_Wiki_Parse_Wikilink(&$obj)
+    function __construct(&$obj)
     {
         $default = $this->conf;
         parent::Text_Wiki_Parse($obj);
@@ -309,4 +309,3 @@ class Text_Wiki_Parse_Mediawiki_Wikilink extends Text_Wiki_Parse {
         return $this->wiki->addToken('Interwiki', $options);
     }
 }
-?>
